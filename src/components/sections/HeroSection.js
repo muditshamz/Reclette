@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import PurchaseButton from "../Buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 function HeroSection() {
@@ -13,6 +14,10 @@ function HeroSection() {
             indepth hands-on experience on all the walkthroughs of the tutorials
             on your system!
           </Description>
+          <PurchaseButton
+            title="Start Exploring"
+            subtitle="120+ hours of content"
+          />
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
