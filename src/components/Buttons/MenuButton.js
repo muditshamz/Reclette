@@ -1,10 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import { Caption2 } from "../styles/TextStyles"
 
-export default function MenuButton() {
+export default function MenuButton(props) {
+  const { item } = props
   return (
-    <Link to=item.link}>
+    <Link to={item.link}>
       <MenuItem hasTitle={!item.title ? false : true}>
         <img src={item.icon} />
         {item.title}
@@ -13,7 +15,7 @@ export default function MenuButton() {
   )
 }
 
-const MenuItem = styled(Caption)`
+const MenuItem = styled(Caption2)`
   color: rgba(255, 255, 255, 0.7);
   display: grid;
   grid-template-columns: 24px auto;
