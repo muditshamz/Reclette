@@ -2,8 +2,8 @@ export const menuData = [
   { title: "Courses", icon: "/images/icons/courses.svg", link: "/courses" },
   { title: "About", icon: "/images/icons/book.svg", link: "/About" },
   { title: "Subscribe", icon: "/images/icons/email.svg", link: "/Subscribe" },
-  { title: "", icon: "/images/icons/award.svg", link: "/Subscribe" },
-  { title: "", icon: "/images/icons/downloads.svg", link: "/Subscribe" },
+  { title: "", icon: "/images/icons/award.svg", link: "/Awards" },
+  { title: "", icon: "/images/icons/downloads.svg", link: "/account" },
 ]
 
 export const tooltipData = [
