@@ -17,6 +17,7 @@ export default function WaveBackground() {
 
 const Wrapper = styled.div`
   position: relative;
+  /* width: 100%; */
 `
 
 const Wave = styled.img`
